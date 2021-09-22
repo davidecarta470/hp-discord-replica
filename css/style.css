@@ -1,0 +1,145 @@
+/* GLOBAL */
+
+*{
+  margin: 0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+  font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+  color: #23272a;
+}
+.container{
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+}
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+h2{
+  font-size: 40px;
+}
+/* HEADER */
+header{
+  height: 80px;
+  background-color:#3161e0 ;
+  line-height: 80px;
+}
+.logo{
+  vertical-align: middle;
+
+}
+.logo,.main-nav{
+  float: left;
+}
+ul li{
+  display: inline-block;
+  list-style: none;
+  padding: 0 15px;
+}
+.main-nav{
+  width: calc(100% - 202px);
+  text-align: center;
+}
+ul li a{
+  font-size: 12px;
+  color: white;
+  text-decoration: none;
+}
+.main-nav ul li a:hover{
+  text-decoration: underline;
+}
+.accedi {
+  float: right;
+}
+.accedi a{
+  font-weight:600
+}
+/* ALL BUTTON */
+.btn{
+  font-size: 14px;
+  color: black;
+  padding: 10px 15px;
+  background-color: white;
+  text-decoration: none;
+  border-radius: 40px;
+}
+.btn.big{
+  font-size: 18px;
+  padding: 15px 20px;
+}
+.btn-black{
+  background-color:black;
+  color :white
+}
+/*  JUMBOTRONE */
+.jumbotrone{
+  height: 550px ;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+}
+.jumbotrone .container{
+  width: 60%;
+  max-width: 800px;
+  height: 100%;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+.jumbotrone .container h1{
+  font-size: 50px;
+    margin-bottom: 40px;
+}
+.jumbotrone .container p{
+  font-size: 20px;
+  line-height:30px;
+  margin-bottom: 50px;
+}
+.jumbotrone .container a:last-of-type{
+  margin-left: 20px;
+}
+/* MAIN */
+section {
+  padding-top: 40px;
+}
+
+section img {
+  width: 500px;
+}
+main section:nth-of-type(odd){
+  background-color: #f6f6f6;
+}
+main section:nth-of-type(odd) img{
+
+  float:left;
+}
+
+main section:nth-of-type(2) img{
+  float:right;
+}
+main section h2{
+  padding-top: 20px;
+}
+main section p{
+ font-weight:600;
+}
+main section:last-of-type{
+  text-align: center;
+}
+
+.main-foot{
+ width: 50%;
+ height: 55px;
+ font-size: 22px;
+ padding-top: 30px;
+ margin:auto;
+ background-image: url(../img/stars.svg);
+ background-size:contain ;
+  }
+
+
+
+
